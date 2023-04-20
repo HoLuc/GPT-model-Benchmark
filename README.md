@@ -1,6 +1,8 @@
 ## Content
 
-The following repository consists of a benchmark of Language Models (such as GPT-3, BERT, BART, or Pegasus just to a few) in the case of text summarization task.
+The following repository consists of a benchmark of Language Models (GPT-3.5 : text-davinci-003, BERT, and GPT-2) in the case of text summarization task of 115 sentences from the test dataset of the CNN-DailyMail News from Kaggle (https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail).
+
+## To use ChatGPT
 
 Before running the scripts, and to be able to use ChatGPT for the experiments, you have to put your api key on *openai_key.txt* to be able to use the OpenAI models. To get it, you must an OpenAI account available by doing the following steps:
 
@@ -33,5 +35,3 @@ git clone https://github.com/google-research/bleurt.git
 cd bleurt
 pip install .
   ```
-
-
