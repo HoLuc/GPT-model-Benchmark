@@ -17,7 +17,7 @@ For the moment, only BERT, GPT-2 and text-davinci-003 (fine-tuned GPT-3) models 
 
 ## Requirements
 
-* Python 3.11.2
+Python 3.11.2
 
 - bert-extractive-summarizer==0.10.1
 - openai==0.27.4
