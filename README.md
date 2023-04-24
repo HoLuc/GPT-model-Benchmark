@@ -1,3 +1,5 @@
+# GPT model : Benchmark
+
 ## Content
 
 The following repository consists of a benchmark of Language Models (GPT-3.5 : text-davinci-003, BERT, and GPT-2) in the case of text summarization task of 115 sentences from the test dataset of the CNN-DailyMail News from Kaggle (https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail).
@@ -14,6 +16,21 @@ Before running the scripts, and to be able to use ChatGPT for the experiments, y
 API Key Good Practice Safety are available on OpenAI website : https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety
 
 For the moment, only BERT, GPT-2 and text-davinci-003 (fine-tuned GPT-3) models are evaluated.
+
+## How to run
+
+Located at the root of the project, you can generate the summarized sentences by writing in your terminal:
+```sh
+python experiments/summarization_task.py
+  ```
+
+On the following repository, the results are given as *results/generated_summary.txt*. To get the average value of BLEU, ROUGE and BLEURT metrics over the 115 sentences summarized by writing:
+
+```sh
+python experiments/benchmark.py
+  ```
+
+Creating a table : *model_summarization_score.csv* in *results* folder.
 
 ## Requirements
 
