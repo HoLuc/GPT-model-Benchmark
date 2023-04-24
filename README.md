@@ -15,7 +15,7 @@ Before running the scripts, and to be able to use ChatGPT for the experiments, y
 
 API Key Good Practice Safety are available on OpenAI website : https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety
 
-For the moment, only BERT, GPT-2 and text-davinci-003 (fine-tuned GPT-3) models are evaluated.
+For the moment, only BERT, GPT-2 and text-davinci-003 (fine-tuned GPT-3.5) models are evaluated.
 
 ## How to run
 
