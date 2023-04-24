@@ -24,7 +24,7 @@ Located at the root of the project, you can generate the summarized sentences by
 python experiments/summarization_task.py
   ```
 
-On the following repository, the results are given as *results/generated_summary.txt*. To get the average value of BLEU, ROUGE and BLEURT metrics over the 115 sentences summarized by writing:
+On the following repository, the results are given as *results/generated_summary.txt*. To get the average value of BLEU, ROUGE and BLEURT metrics over the 115 sentences summarized, you have to write:
 
 ```sh
 python experiments/benchmark.py
